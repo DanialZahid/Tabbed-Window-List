@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+	.tabbed-window-list {
+		grid-template-columns: auto;
+		width: auto;
+	}
+
+	.tabs {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+		border-right: 0;
+		border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+	}
+
+	.tab {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 2rem;
+	}
+
+	.tabs {
+		img {
+			width: 2.4rem;
+		}
+	}
+
+	.tab {
+		padding: 1rem;
+	}
+
+	.content-pane {
+		padding: 2rem;
+	}
+}
+
+@media (max-width: 425px) {
+	body {
+		font-size: 1.2rem;
+	}
+
+	main {
+		padding: 1rem;
+	}
+
+	h3 {
+		font-size: 1.6rem;
+	}
+}
